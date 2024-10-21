@@ -1,10 +1,10 @@
-// Do≥πczenie bibliotek
+// Do≈ÇƒÖczenie bibliotek
 #include <stdio.h>
 #include <stdlib.h>
 // Zdefiniowanie makrodefinicji DEBUG
 #define DEBUG
 
-// Funkcja g≥Ûwna
+// Funkcja g≈Ç√≥wna
 int main()
 {
     // Zdefiniowanie zmiennych
@@ -12,24 +12,24 @@ int main()
     float b;
     float pole;
 
-    // Pobranie danych od uøytkownika
+    // Pobranie danych od u≈ºytkownika
     printf("Podaj liczbe a: ");
     scanf("%f", &a);
 
     printf("Podaj liczbe b: ");
     scanf("%f", &b);
 
-    // Wyúwietlenie informacji do debugowania gdy makrodefinicja DEBUG istnieje
-    #ifdef DEBUG:
+    // Wy≈õwietlenie informacji do debugowania gdy makrodefinicja DEBUG istnieje
+    #ifdef DEBUG
         printf("DEBUG: zmienna a: %.2f, zmienna b: %.2f\n", a, b);
         printf("Pole prostokata = a * b\n");
     #endif
     // Obliczenie pola
     pole = a * b;
-    // Wyúwietlenie pola
+    // Wy≈õwietlenie pola
     printf("Pole prostokata: %.2f\n", pole);
     // Zatrzymanie konsoli
     system("pause");
-    // ZwrÛcenie 0
+    // Zwr√≥cenie 0
     return 0;
 }
